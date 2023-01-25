@@ -42,7 +42,7 @@
     <!-- the path should end with the name without the extension e.g. if file is 'pinball.fset' the path should end with 'pinball' -->
     <a-nft
       type="nft"
-      url="<path-to-your-image-descriptors>"
+      url="iruka.png"
       smooth="true"
       smoothCount="10"
       smoothTolerance=".01"
@@ -50,15 +50,15 @@
     >
       <!-- as a child of the a-nft entity, you can define the content to show. here's a GLTF model entity -->
       <a-assets>
-        <a-asset-item id="crate-obj" src="crate.obj"></a-asset-item>
-        <a-asset-item id="crate-mtl" src="crate.mtl"></a-asset-item>
+        <a-asset-item id="crate-obj" src="10014_dolphin_v2_max2011_it2.obj"></a-asset-item>
+        <a-asset-item id="crate-mtl" src="10014_dolphin_v2_max2011_it2.mtl"></a-asset-item>
       </a-assets>
 
       <!-- Using the asset management system. -->
       <a-obj-model src="#crate-obj" mtl="#crate-mtl"></a-obj-model>
 
       <!-- Defining the URL inline. Not recommended but may be more comfortable. -->
-      <a-obj-model src="crate.obj" mtl="crate.mtl"></a-obj-model>
+      <a-obj-model src="10014_dolphin_v2_max2011_it2.obj" mtl="10014_dolphin_v2_max2011_it2.mtl"></a-obj-model>
     </a-nft>
     <!-- static camera that moves according to the device movemenents -->
     <a-entity camera></a-entity>
